@@ -503,179 +503,11 @@
   <data name="&gt;&gt;RgbRBar.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;percent1.Name" xml:space="preserve">
-    <value>percent1</value>
-  </data>
-  <data name="&gt;&gt;percent1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;percent1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;percent1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;HlsSBox.Name" xml:space="preserve">
-    <value>HlsSBox</value>
-  </data>
-  <data name="&gt;&gt;HlsSBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsSBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsSBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;HlsLBox.Name" xml:space="preserve">
-    <value>HlsLBox</value>
-  </data>
-  <data name="&gt;&gt;HlsLBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsLBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsLBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;HlsHBox.Name" xml:space="preserve">
-    <value>HlsHBox</value>
-  </data>
-  <data name="&gt;&gt;HlsHBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsHBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsHBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Name" xml:space="preserve">
-    <value>HlsSBar</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;HlsLBar.Name" xml:space="preserve">
-    <value>HlsLBar</value>
-  </data>
-  <data name="&gt;&gt;HlsLBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsLBar.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsLBar.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;HlsHBar.Name" xml:space="preserve">
-    <value>HlsHBar</value>
-  </data>
-  <data name="&gt;&gt;HlsHBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsHBar.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsHBar.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 12</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 152</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>HLS</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 105</value>
+    <value>12, 66</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 13</value>
@@ -702,7 +534,7 @@
     <value>True</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 67</value>
+    <value>13, 105</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
@@ -827,149 +659,173 @@
   <data name="&gt;&gt;percent1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="HlsSBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 102</value>
+  <data name="HslSBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 63</value>
   </data>
-  <data name="HlsSBox.MaxLength" type="System.Int32, mscorlib">
+  <data name="HslSBox.MaxLength" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="HlsSBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HslSBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="HlsSBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="HslSBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="HlsSBox.Text" xml:space="preserve">
+  <data name="HslSBox.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;HlsSBox.Name" xml:space="preserve">
-    <value>HlsSBox</value>
+  <data name="&gt;&gt;HslSBox.Name" xml:space="preserve">
+    <value>HslSBox</value>
   </data>
-  <data name="&gt;&gt;HlsSBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;HslSBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HlsSBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HslSBox.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;HlsSBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HslSBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="HlsLBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 64</value>
+  <data name="HslLBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 102</value>
   </data>
-  <data name="HlsLBox.MaxLength" type="System.Int32, mscorlib">
+  <data name="HslLBox.MaxLength" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="HlsLBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HslLBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="HlsLBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="HslLBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="HlsLBox.Text" xml:space="preserve">
+  <data name="HslLBox.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;HlsLBox.Name" xml:space="preserve">
-    <value>HlsLBox</value>
+  <data name="&gt;&gt;HslLBox.Name" xml:space="preserve">
+    <value>HslLBox</value>
   </data>
-  <data name="&gt;&gt;HlsLBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;HslLBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HlsLBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HslLBox.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;HlsLBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HslLBox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="HlsHBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="HslHBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 27</value>
   </data>
-  <data name="HlsHBox.MaxLength" type="System.Int32, mscorlib">
+  <data name="HslHBox.MaxLength" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="HlsHBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HslHBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="HlsHBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="HslHBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="HlsHBox.Text" xml:space="preserve">
+  <data name="HslHBox.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;HlsHBox.Name" xml:space="preserve">
-    <value>HlsHBox</value>
+  <data name="&gt;&gt;HslHBox.Name" xml:space="preserve">
+    <value>HslHBox</value>
   </data>
-  <data name="&gt;&gt;HlsHBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;HslHBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HlsHBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HslHBox.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;HlsHBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HslHBox.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="HlsSBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 102</value>
-  </data>
-  <data name="HlsSBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 45</value>
-  </data>
-  <data name="HlsSBar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Name" xml:space="preserve">
-    <value>HlsSBar</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;HlsSBar.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="HlsLBar.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="HslSBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 63</value>
   </data>
-  <data name="HlsLBar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HslSBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 45</value>
   </data>
-  <data name="HlsLBar.TabIndex" type="System.Int32, mscorlib">
+  <data name="HslSBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;HslSBar.Name" xml:space="preserve">
+    <value>HslSBar</value>
+  </data>
+  <data name="&gt;&gt;HslSBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HslSBar.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;HslSBar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="HslLBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 101</value>
+  </data>
+  <data name="HslLBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="HslLBar.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;HlsLBar.Name" xml:space="preserve">
-    <value>HlsLBar</value>
+  <data name="&gt;&gt;HslLBar.Name" xml:space="preserve">
+    <value>HslLBar</value>
   </data>
-  <data name="&gt;&gt;HlsLBar.Type" xml:space="preserve">
+  <data name="&gt;&gt;HslLBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HlsLBar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HslLBar.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;HlsLBar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HslLBar.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="HlsHBar.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="HslHBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 24</value>
   </data>
-  <data name="HlsHBar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HslHBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 45</value>
   </data>
-  <data name="HlsHBar.TabIndex" type="System.Int32, mscorlib">
+  <data name="HslHBar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;HlsHBar.Name" xml:space="preserve">
-    <value>HlsHBar</value>
+  <data name="&gt;&gt;HslHBar.Name" xml:space="preserve">
+    <value>HslHBar</value>
   </data>
-  <data name="&gt;&gt;HlsHBar.Type" xml:space="preserve">
+  <data name="&gt;&gt;HslHBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HlsHBar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HslHBar.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;HlsHBar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HslHBar.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 12</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 152</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>HSL</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label16.Name" xml:space="preserve">
     <value>label16</value>
@@ -1604,25 +1460,6 @@
   <data name="&gt;&gt;ColorDispayBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="InfoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="InfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 10</value>
-  </data>
-  <data name="InfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 19</value>
-  </data>
-  <data name="InfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="InfoLabel.Text" xml:space="preserve">
-    <value>Colors are converted with loss</value>
-  </data>
-  <data name="InfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="&gt;&gt;InfoLabel.Name" xml:space="preserve">
     <value>InfoLabel</value>
   </data>
@@ -1657,6 +1494,37 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InfoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 10</value>
+  </data>
+  <data name="InfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 19</value>
+  </data>
+  <data name="InfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="InfoLabel.Text" xml:space="preserve">
+    <value>Colors are converted with loss</value>
+  </data>
+  <data name="InfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;InfoLabel.Name" xml:space="preserve">
+    <value>InfoLabel</value>
+  </data>
+  <data name="&gt;&gt;InfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InfoLabel.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;InfoLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

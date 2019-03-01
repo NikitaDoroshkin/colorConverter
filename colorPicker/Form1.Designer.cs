@@ -48,12 +48,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.percent1 = new System.Windows.Forms.Label();
-            this.HlsSBox = new System.Windows.Forms.TextBox();
-            this.HlsLBox = new System.Windows.Forms.TextBox();
-            this.HlsHBox = new System.Windows.Forms.TextBox();
-            this.HlsSBar = new System.Windows.Forms.TrackBar();
-            this.HlsLBar = new System.Windows.Forms.TrackBar();
-            this.HlsHBar = new System.Windows.Forms.TrackBar();
+            this.HslSBox = new System.Windows.Forms.TextBox();
+            this.HslLBox = new System.Windows.Forms.TextBox();
+            this.HslHBox = new System.Windows.Forms.TextBox();
+            this.HslSBar = new System.Windows.Forms.TrackBar();
+            this.HslLBar = new System.Windows.Forms.TrackBar();
+            this.HslHBar = new System.Windows.Forms.TrackBar();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -79,9 +79,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.RgbGBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RgbRBar)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsSBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsLBar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsHBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslSBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslLBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslHBar)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CmykKBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CmykYBar)).BeginInit();
@@ -175,12 +175,12 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.percent1);
-            this.groupBox2.Controls.Add(this.HlsSBox);
-            this.groupBox2.Controls.Add(this.HlsLBox);
-            this.groupBox2.Controls.Add(this.HlsHBox);
-            this.groupBox2.Controls.Add(this.HlsSBar);
-            this.groupBox2.Controls.Add(this.HlsLBar);
-            this.groupBox2.Controls.Add(this.HlsHBar);
+            this.groupBox2.Controls.Add(this.HslSBox);
+            this.groupBox2.Controls.Add(this.HslLBox);
+            this.groupBox2.Controls.Add(this.HslHBox);
+            this.groupBox2.Controls.Add(this.HslSBar);
+            this.groupBox2.Controls.Add(this.HslLBar);
+            this.groupBox2.Controls.Add(this.HslHBar);
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
@@ -215,44 +215,44 @@
             resources.ApplyResources(this.percent1, "percent1");
             this.percent1.Name = "percent1";
             // 
-            // HlsSBox
+            // HslSBox
             // 
-            resources.ApplyResources(this.HlsSBox, "HlsSBox");
-            this.HlsSBox.Name = "HlsSBox";
-            this.HlsSBox.TextChanged += new System.EventHandler(this.HlsSBox_TextChanged);
+            resources.ApplyResources(this.HslSBox, "HslSBox");
+            this.HslSBox.Name = "HslSBox";
+            this.HslSBox.TextChanged += new System.EventHandler(this.HlsSBox_TextChanged);
             // 
-            // HlsLBox
+            // HslLBox
             // 
-            resources.ApplyResources(this.HlsLBox, "HlsLBox");
-            this.HlsLBox.Name = "HlsLBox";
-            this.HlsLBox.TextChanged += new System.EventHandler(this.HlsLBox_TextChanged);
+            resources.ApplyResources(this.HslLBox, "HslLBox");
+            this.HslLBox.Name = "HslLBox";
+            this.HslLBox.TextChanged += new System.EventHandler(this.HlsLBox_TextChanged);
             // 
-            // HlsHBox
+            // HslHBox
             // 
-            resources.ApplyResources(this.HlsHBox, "HlsHBox");
-            this.HlsHBox.Name = "HlsHBox";
-            this.HlsHBox.TextChanged += new System.EventHandler(this.HlsHBox_TextChanged);
+            resources.ApplyResources(this.HslHBox, "HslHBox");
+            this.HslHBox.Name = "HslHBox";
+            this.HslHBox.TextChanged += new System.EventHandler(this.HlsHBox_TextChanged);
             // 
-            // HlsSBar
+            // HslSBar
             // 
-            resources.ApplyResources(this.HlsSBar, "HlsSBar");
-            this.HlsSBar.Maximum = 100;
-            this.HlsSBar.Name = "HlsSBar";
-            this.HlsSBar.Scroll += new System.EventHandler(this.HlsSBar_Scroll);
+            resources.ApplyResources(this.HslSBar, "HslSBar");
+            this.HslSBar.Maximum = 100;
+            this.HslSBar.Name = "HslSBar";
+            this.HslSBar.Scroll += new System.EventHandler(this.HlsSBar_Scroll);
             // 
-            // HlsLBar
+            // HslLBar
             // 
-            resources.ApplyResources(this.HlsLBar, "HlsLBar");
-            this.HlsLBar.Maximum = 100;
-            this.HlsLBar.Name = "HlsLBar";
-            this.HlsLBar.Scroll += new System.EventHandler(this.HlsLBar_Scroll);
+            resources.ApplyResources(this.HslLBar, "HslLBar");
+            this.HslLBar.Maximum = 100;
+            this.HslLBar.Name = "HslLBar";
+            this.HslLBar.Scroll += new System.EventHandler(this.HlsLBar_Scroll);
             // 
-            // HlsHBar
+            // HslHBar
             // 
-            resources.ApplyResources(this.HlsHBar, "HlsHBar");
-            this.HlsHBar.Maximum = 360;
-            this.HlsHBar.Name = "HlsHBar";
-            this.HlsHBar.Scroll += new System.EventHandler(this.HlsHBar_Scroll);
+            resources.ApplyResources(this.HslHBar, "HslHBar");
+            this.HslHBar.Maximum = 360;
+            this.HslHBar.Name = "HslHBar";
+            this.HslHBar.Scroll += new System.EventHandler(this.HlsHBar_Scroll);
             // 
             // groupBox3
             // 
@@ -410,9 +410,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.RgbRBar)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsSBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsLBar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HlsHBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslSBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslLBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HslHBar)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CmykKBar)).EndInit();
@@ -446,12 +446,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label percent1;
-        private System.Windows.Forms.TextBox HlsSBox;
-        private System.Windows.Forms.TextBox HlsLBox;
-        private System.Windows.Forms.TextBox HlsHBox;
-        private System.Windows.Forms.TrackBar HlsSBar;
-        private System.Windows.Forms.TrackBar HlsLBar;
-        private System.Windows.Forms.TrackBar HlsHBar;
+        private System.Windows.Forms.TextBox HslSBox;
+        private System.Windows.Forms.TextBox HslLBox;
+        private System.Windows.Forms.TextBox HslHBox;
+        private System.Windows.Forms.TrackBar HslSBar;
+        private System.Windows.Forms.TrackBar HslLBar;
+        private System.Windows.Forms.TrackBar HslHBar;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;

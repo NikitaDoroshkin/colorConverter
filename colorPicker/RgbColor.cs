@@ -15,7 +15,7 @@ namespace colorPicker
             B = b;
         }
 
-        public void Update(HlsColor color)
+        public void Update(HslColor color)
         {
             if (color.S == 0)
             {
@@ -23,15 +23,15 @@ namespace colorPicker
             }
             else
             {
-                double v1, v2;
+                double m1, m2;
                 double hue = color.H / 360;
 
-                v2 = (color.L < 0.5) ? (color.L * (1 + color.S)) : ((color.L + color.S) - (color.L * color.S));
-                v1 = 2 * color.L - v2;
+                m2 = (color.L < 0.5) ? (color.L * (1 + color.S)) : ((color.L + color.S) - (color.L * color.S));
+                m1 = 2 * color.L - m2;
 
-                R = (int)(255 * HueToRGB(v1, v2, hue + (1.0f / 3)));
-                G = (int)(255 * HueToRGB(v1, v2, hue));
-                B = (int)(255 * HueToRGB(v1, v2, hue - (1.0f / 3)));
+                R = (int)(255 * HueToRGB(m1, m2, hue + (1.0f / 3)));
+                G = (int)(255 * HueToRGB(m1, m2, hue));
+                B = (int)(255 * HueToRGB(m1, m2, hue - (1.0f / 3)));
             }
 
             double HueToRGB(double v1, double v2, double vH)

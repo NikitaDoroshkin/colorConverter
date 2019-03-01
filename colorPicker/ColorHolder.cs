@@ -3,13 +3,13 @@
     class ColorHolder
     {
         private RgbColor _rgbColor;
-        private HlsColor _hlsColor;
+        private HslColor _hslColor;
         private CmykColor _cmykColor;
 
         public ColorHolder()
         {
             _rgbColor = new RgbColor(0, 0, 0);
-            _hlsColor = new HlsColor(0, 0, 0);
+            _hslColor = new HslColor(0, 0, 0);
             _cmykColor = new CmykColor(0, 0, 0, 1);
         }
 
@@ -18,20 +18,20 @@
             get => _rgbColor;
             set
             {
-                _hlsColor.Update(value);
+                _hslColor.Update(value);
                 _cmykColor.Update(value);
                 _rgbColor = value;
             }
         }
 
-        public HlsColor HlsColor
+        public HslColor HslColor
         {
-            get => _hlsColor;
+            get => _hslColor;
             set
             {
                 _rgbColor.Update(value);
                 _cmykColor.Update(_rgbColor);
-                _hlsColor = value;
+                _hslColor = value;
             }
         }
 
@@ -41,7 +41,7 @@
             set
             {
                 _rgbColor.Update(value);
-                _hlsColor.Update(_rgbColor);
+                _hslColor.Update(_rgbColor);
                 _cmykColor = value;
             }
         }

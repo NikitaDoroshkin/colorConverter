@@ -3,7 +3,7 @@
     enum ColorSpaceEnum
     {
         RGB,
-        HLS,
+        HSL,
         CMYK
     }
 }

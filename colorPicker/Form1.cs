@@ -16,7 +16,7 @@ namespace colorPicker
         private Dictionary<ColorSpaceEnum, String> _validationErrors = new Dictionary<ColorSpaceEnum, string>
         {
             { ColorSpaceEnum.RGB, "R, G, B in [0,255]" },
-            { ColorSpaceEnum.HLS, "H in [0,360]; L, S in [0,100]" },
+            { ColorSpaceEnum.HSL, "H in [0,360]; L, S in [0,100]" },
             { ColorSpaceEnum.CMYK, "C, M, Y, K in [0,100]" }
         };
 
@@ -51,11 +51,11 @@ namespace colorPicker
                         Double.Parse(RgbGBox.Text),
                         Double.Parse(RgbBBox.Text));
                     break;
-                case ColorSpaceEnum.HLS:
-                    _colorHolder.HlsColor = new HlsColor(
-                        Double.Parse(HlsHBox.Text),
-                        Double.Parse(HlsLBox.Text),
-                        Double.Parse(HlsSBox.Text));
+                case ColorSpaceEnum.HSL:
+                    _colorHolder.HslColor = new HslColor(
+                        Double.Parse(HslHBox.Text),
+                        Double.Parse(HslLBox.Text),
+                        Double.Parse(HslSBox.Text));
                     break;
                 case ColorSpaceEnum.CMYK:
                     _colorHolder.CmykColor = new CmykColor(
@@ -108,13 +108,13 @@ namespace colorPicker
 
         void UpdateHls()
         {
-            HlsHBox.Text = _colorHolder.HlsColor.H.ToString();
-            HlsLBox.Text = _colorHolder.HlsColor.L.ToString();
-            HlsSBox.Text = _colorHolder.HlsColor.S.ToString();
+            HslHBox.Text = _colorHolder.HslColor.H.ToString();
+            HslLBox.Text = _colorHolder.HslColor.L.ToString();
+            HslSBox.Text = _colorHolder.HslColor.S.ToString();
 
-            HlsHBar.Value = (int)_colorHolder.HlsColor.H;
-            HlsLBar.Value = (int)(_colorHolder.HlsColor.L* 100);
-            HlsSBar.Value = (int)(_colorHolder.HlsColor.S * 100);
+            HslHBar.Value = (int)_colorHolder.HslColor.H;
+            HslLBar.Value = (int)(_colorHolder.HslColor.L* 100);
+            HslSBar.Value = (int)(_colorHolder.HslColor.S * 100);
         }
 
         private void UpdateBox()
@@ -150,17 +150,17 @@ namespace colorPicker
 
         private void HlsHBar_Scroll(object sender, EventArgs e)
         {
-            HlsHBox.Text = HlsHBar.Value.ToString();
+            HslHBox.Text = HslHBar.Value.ToString();
         }
 
         private void HlsLBar_Scroll(object sender, EventArgs e)
         {
-            HlsLBox.Text = (HlsLBar.Value / 100.0).ToString();
+            HslLBox.Text = (HslLBar.Value / 100.0).ToString();
         }
 
         private void HlsSBar_Scroll(object sender, EventArgs e)
         {
-            HlsSBox.Text = (HlsSBar.Value / 100.0).ToString();
+            HslSBox.Text = (HslSBar.Value / 100.0).ToString();
         }
 
         private void CmykCBar_Scroll(object sender, EventArgs e)
@@ -216,7 +216,7 @@ namespace colorPicker
                 case ColorSpaceEnum.RGB:
                     UpdateRgb();
                     break;
-                case ColorSpaceEnum.HLS:
+                case ColorSpaceEnum.HSL:
                     
                     break;
                 case ColorSpaceEnum.CMYK:
@@ -244,17 +244,17 @@ namespace colorPicker
 
         private void HlsHBox_TextChanged(object sender, EventArgs e)
         {
-            TextBoxChanged(ColorSpaceEnum.HLS, ValidatorType.Degree, HlsHBox);
+            TextBoxChanged(ColorSpaceEnum.HSL, ValidatorType.Degree, HslHBox);
         }
 
         private void HlsLBox_TextChanged(object sender, EventArgs e)
         {
-            TextBoxChanged(ColorSpaceEnum.HLS, ValidatorType.Fraction, HlsLBox);
+            TextBoxChanged(ColorSpaceEnum.HSL, ValidatorType.Fraction, HslLBox);
         }
 
         private void HlsSBox_TextChanged(object sender, EventArgs e)
         {
-            TextBoxChanged(ColorSpaceEnum.HLS, ValidatorType.Fraction, HlsSBox);
+            TextBoxChanged(ColorSpaceEnum.HSL, ValidatorType.Fraction, HslSBox);
         }
 
         private void CmykCBox_TextChanged(object sender, EventArgs e)
